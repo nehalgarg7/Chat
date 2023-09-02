@@ -1,0 +1,8 @@
+.App{
+  min-height: 100vh;
+  display: flex;
+  background-image: url(home-page-bg-image.jpg);
+  background-size: cover;
+  background-position: center;
+  
+}
