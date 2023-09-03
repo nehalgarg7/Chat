@@ -7,7 +7,7 @@ function ChatPage() {
 
   let data;
   const fetchChats = async() => {
-     axios.get('http://localhost:5000/api/chat').then(function (response) {
+     axios.get('http://localhost:5000/api/user/chat').then(function (response) {
       // handle success
       setChats(response.data);
       
